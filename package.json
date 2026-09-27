@@ -1,0 +1,26 @@
+{
+  "name": "smartpark-workspace",
+  "version": "1.0.0",
+  "description": "SmartPark — Smart Mall Parking Management System (MERN Stack)",
+  "scripts": {
+    "install:backend": "cd backend && npm install",
+    "install:frontend": "cd frontend && npm install",
+    "install:all": "npm run install:backend && npm run install:frontend",
+    "seed": "cd backend && npm run seed",
+    "backend": "cd backend && npm run dev",
+    "frontend": "cd frontend && npm run dev",
+    "start": "cd backend && npm start",
+    "build": "cd frontend && npm run build"
+  },
+  "keywords": [
+    "mern",
+    "smartpark",
+    "iot-parking",
+    "socket.io",
+    "react",
+    "nodejs",
+    "mongodb"
+  ],
+  "author": "SmartPark Developer",
+  "license": "ISC"
+}
